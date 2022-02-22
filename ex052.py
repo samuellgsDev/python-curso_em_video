@@ -15,3 +15,4 @@ for c in range(1, number + 1):
     print(f'{c}', end=' ')
 print(f', \033[034mThe number\033[m \033[032m{number}\033[m ', end='')
 print(f'\033[034mhas been divided {totally} time.')
+print('END')
