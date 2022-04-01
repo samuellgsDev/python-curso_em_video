@@ -13,7 +13,8 @@
 # how many years the person will be retired.
 #
 from datetime import date
-dados = dict()
+from typing import Any
+dados: dict[str, Any] = dict()
 dados['nome'] = str(input('Nome: '))
 nasc = int(input('Ano de Nascimento: '))
 dados['idade'] = date.today().year - nasc
