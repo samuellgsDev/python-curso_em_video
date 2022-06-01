@@ -1,4 +1,4 @@
-# módulo do exercicio 110
+# módulo do exercicio 111 e 112
 
 def aumentar(n, p, formatado=False):
     res = n + (n * p / 100)
