@@ -2,4 +2,4 @@
 import moeda4
 
 preco = float(input('Digite o preço: R$ '))
-print(f'O resumo de {moeda4.moeda(preco)} é: {moeda4.resumo(preco, 20, 10)}')
+moeda4.resumo(preco, 10, 13)
